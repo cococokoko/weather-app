@@ -1,0 +1,49 @@
+@import url("https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;700&display=swap");
+
+.flex-container{
+  display: flex;
+
+}
+/*.photo{
+  height: 100px;
+  width: 200px;
+  flex: 1;
+}*/
+.CitySelector {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  flex-wrap: wrap;
+  flex-direction: column;
+  flex: 1;
+
+}
+.flex--basic{
+  display: flex;
+  gap: 200px;
+  justify-content: center;
+}
+.citybutton {
+  background-image: rgb(255, 255, 255);
+  height: 60px;
+  width: 80px;
+  margin: 20px;
+}
+.pic1{
+  top: 6px;
+  height: 500px;
+  width: 500px;
+  display: flex;
+  left: 100px;
+}
+
+.citybutton:hover {
+  background-color: #d3b7ee;
+}
+
+.citybutton:focus{
+  background-color: #d3b7ee;
+
+}
+

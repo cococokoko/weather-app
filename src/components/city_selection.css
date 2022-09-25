@@ -1,0 +1,15 @@
+@import url("https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;700&display=swap");
+
+.CitySelector {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+}
+
+.citybutton {
+  background-color: white;
+  height: 60px;
+  width: 80px;
+  margin: 20px;
+}
